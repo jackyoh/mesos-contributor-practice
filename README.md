@@ -3,5 +3,5 @@
 * 內容如下：
     * [Mesos source code download and build on the CentOS 7.3](mesos-download-build.md)
     * [Runing Mesos Unit Test](running-mesos-test.md)
-    * [Submitting a Patch](submitting-apatch.md)
-    * [Test clang for Mesos code style](running-mesos-test.md)
+    * [Submitting a Patch](submitting-a-apatch.md)
+    * [Test clang for Mesos code style](clang-code-style.md)
