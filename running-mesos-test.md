@@ -4,6 +4,11 @@
 ```
 # swapoff -a
 ```
+
+* 有關於討論關閉 SWAP 的說明在以下的 JIRA 裡 
+    * [MESOS-3160](https://issues.apache.org/jira/browse/MESOS-3160)
+    * [MESOS-2660](https://issues.apache.org/jira/browse/MESOS-2660)
+
 * 安裝 Docker
 ```
 # yum install -y docker
