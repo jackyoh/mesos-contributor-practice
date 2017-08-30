@@ -33,6 +33,9 @@
 # make check
 ```
 
+### 執行完測試之後畫面如下
+![mesos-test result](./images/mesos-test.png)
+
 
 ### 執行單一程式指令測試如下
 ```
