@@ -59,7 +59,7 @@ imap <C-K> <c-o>:pyf /usr/share/vim/addons/syntax/clang-format-3.8.py<cr>
 template <typename T>
 ```
 
-### 延續前一行(Continuation)
+### Continuation
 * assignment statement 如果換新的一行, 要比前一行多 2 個縮排
 ```
 Try<Duration> failoverTimeout =
