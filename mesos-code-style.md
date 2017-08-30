@@ -1,4 +1,4 @@
-## Test clang for Mesos code style
+## Mesos code style
 
 ### 在CentOS 7.3 安裝 Clang 指令如下
 ```

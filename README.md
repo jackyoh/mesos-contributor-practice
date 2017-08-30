@@ -4,4 +4,4 @@
     * [Mesos source code download and build on the CentOS 7.3](mesos-download-build.md)
     * [Runing Mesos Unit Test](running-mesos-test.md)
     * [Submitting a Patch](submitting-a-patch.md)
-    * [Test clang for Mesos code style](mesos-code-style.md)
+    * [Mesos code style](mesos-code-style.md)
