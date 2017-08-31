@@ -26,7 +26,7 @@
 * 指定一個適合的 shepherd 在 patch 裡。 shepherd 是 Mesos 的 commiter 他會給一些 feedback, 最後會把修改的程式 commit 到 Mesos source tree 
 
 ### 建立 Patch
-* 在開始修改 code 之前先撰寫測試程式, 證明程式是有 Bug 的
+* 在開始修改 code 之前先撰寫測試程式, 證明程式是有 Bug 或是新增功能的test case
  
 * 實際去修改程式
 
