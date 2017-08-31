@@ -25,6 +25,9 @@
 
 * 指定一個適合的 shepherd 在 patch 裡。 shepherd 是 Mesos 的 commiter 他會給一些 feedback, 最後會把修改的程式 commit 到 Mesos source tree 
 
+* shepherd 可以在 [committer](https://github.com/apache/mesos/blob/master/docs/committers.md) 的文件找到
+
+
 ### 建立 Patch
 * 在開始修改 code 之前先撰寫測試程式, 證明程式是有 Bug 或是新增功能的test case
  
@@ -41,9 +44,9 @@
 # build/bin/mesos-test.sh --gtest_filter="AuthorizationTest*" --verbose
 ```
 
-* commit code 需要注意以下幾件事
-    * 在每一次 commit code 時，代表單一的程式邏輯改變，這樣會比較好閱讀程式
-    * 修改程式邏輯 commit code 時，不要改錯字或是 code style，才不會造成程式很難閱讀
+* commit code 需要注意以下幾件事 
+    * 在每一次 commit code 時，代表單一的程式邏輯改變，這樣會比較好閱讀程式
+    * 修改程式邏輯 commit code 時，不要改錯字或是 code style，才不會造成程式很難閱讀
     * commit code 時註解需要使用過去式，並且第一句話要先說明總結(Summary)，然後不要超過 72 個字元
     
 * 確認目前mesos local branch 的 code 要和 mesos remote master branch 的 code 同步, 指令如下
