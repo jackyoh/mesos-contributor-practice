@@ -3,9 +3,9 @@
 
 ### 在寫 code 之前的準備
 
-* 註冊 Apache JIRA 帳號
+* 註冊 [Apache JIRA](https://issues.apache.org/jira/browse/mesos/) 帳號
 
-* 註冊 Apache Review Board 帳號
+* 註冊 [Apache Review Board](https://reviews.apache.org/) 帳號
 
 * 到 Apache 的 Git Repository 把 Mesos Source Clone 回 Local
 
