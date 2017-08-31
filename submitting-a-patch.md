@@ -41,7 +41,7 @@
 # build/bin/mesos-test.sh --gtest_filter="AuthorizationTest*" --verbose
 ```
 
-* commit code 需要注意一下幾件事
+* commit code 需要注意以下幾件事
     * 在每一次 commit code 時代表單一的程式邏輯改變，這樣會比較好閱讀程式
     * 修改程式邏輯 commit code 時不要改錯字或是 code style，才不會造成程式很難閱讀
     * commit code 時註解需要使用過去式，並且第一句話要先說明總結(Summary)，然後不要超過 72 個字元
