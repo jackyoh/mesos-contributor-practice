@@ -39,7 +39,7 @@
 
 ### 執行單一程式指令測試如下
 ```
-# make test
+# make tests
 # cd $MESOS_HOME
 # build/bin/mesos-test.sh --gtest_filter="AuthorizationTest*" --verbose
 ```
