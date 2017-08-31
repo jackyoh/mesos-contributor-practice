@@ -42,8 +42,8 @@
 ```
 
 * commit code 需要注意以下幾件事
-    * 在每一次 commit code 時代表單一的程式邏輯改變，這樣會比較好閱讀程式
-    * 修改程式邏輯 commit code 時不要改錯字或是 code style，才不會造成程式很難閱讀
+    * 在每一次 commit code 時，代表單一的程式邏輯改變，這樣會比較好閱讀程式
+    * 修改程式邏輯 commit code 時，不要改錯字或是 code style，才不會造成程式很難閱讀
     * commit code 時註解需要使用過去式，並且第一句話要先說明總結(Summary)，然後不要超過 72 個字元
     
 * 確認目前mesos local branch 的 code 要和 mesos remote master branch 的 code 同步, 指令如下
@@ -81,4 +81,3 @@
 * 等待收到 Mesos commiter 傳回的 Ship it
 
 * 增加功能或修改 Bug 之後要確保文件已經更新了
-
