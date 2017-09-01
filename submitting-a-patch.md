@@ -47,8 +47,9 @@
 * commit code 需要注意以下幾件事 
     * 在每一次 commit code 時，代表單一的程式邏輯改變，這樣會比較好閱讀程式
     * 修改程式邏輯 commit code 時，不要改錯字或是 code style，才不會造成程式很難閱讀
-    * commit code 時註解需要使用過去式，並且第一句話要先說明總結(Summary)，然後不要超過 72 個字元
-    
+    * commit code 時註解需要使用過去式，並且第一句話要先說明總結(Summary)，然後不要超過 72 個字元 
+    * 如果不知道如何寫 commit 的註解，可以使用 ```gitk``` 指令先觀察之前的人是怎麼寫的。大部份註解的開頭都是Added、Removed、Updated、Improved、Fixed、Cleaned…等等
+    
 * 確認目前mesos local branch 的 code 要和 mesos remote master branch 的 code 同步, 指令如下
 ```
 # git checkout master
