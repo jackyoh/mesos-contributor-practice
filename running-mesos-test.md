@@ -28,6 +28,8 @@
 
 * CPU core 數需要 4 個以上
 
+* /etc/hosts 的 ip 和 hostname 須要設定正確
+
 ### 執行測試程式指令如下
 ```
 # make check
