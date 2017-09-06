@@ -1,14 +1,14 @@
 ## Mesos code style
 
 ### 在CentOS 7.3 安裝 Clang 指令如下
-```
-# yum install -y epel-release
-# yum install -y clang
+```sh
+$ yum install -y epel-release
+$ yum install -y clang
 ```
 
 ### 使用 clang-format 將 code 排版
-```
-# clang-format -i -style=google *.cpp
+```sh
+$ clang-format -i -style=google *.cpp
 ```
 
 有想要把 clang-format 這個工具整合到 CentOS 7.3 上 vim 但沒有成功, 之後有使用Ubuntu 14.04 執行成功
@@ -17,10 +17,10 @@
 ### 在 Ubuntu 14.04 執行 clang, 步驟如下
 
 * 安裝指令如下：
-```
-# sudo apt-add-repository "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty main"
-# sudo apt-get update
-# sudo apt-get install clang-format-3.8
+```sh
+$ sudo apt-add-repository "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty main"
+$ sudo apt-get update
+$ sudo apt-get install clang-format-3.8
 ```
 
 * 需要在 $HOME 資料夾下面建立 .vimrc 的檔案，內容如下
@@ -41,7 +41,7 @@ imap <C-K> <c-o>:pyf /usr/share/vim/addons/syntax/clang-format-3.8.py<cr>
 
 ### 註解(Comments)
 * 每個句子的結尾都要用標點符號標記
-* 使用 ```//`` 中間要空一隔空白
+* 使用 `//` 中間要空一隔空白
 ```
 // Hello World
 ```
