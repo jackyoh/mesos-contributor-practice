@@ -23,9 +23,9 @@
 
 * 規劃要如何解決問題並且寫到 JIRA 的 comments 上
 
-* 指定一個適合的 shepherd 在 patch 裡。 shepherd 是 Mesos 的 committer 他會給一些 feedback, 最後會把修改的程式 commit 到 Mesos source tree 
+* 指定一個適合的 Shepherd 在 patch 裡。 Shepherd 是 Mesos 的 committer 他會給一些 feedback, 最後會把修改的程式 commit 到 Mesos source tree 
 
-* shepherd 可以在 [committer](https://github.com/apache/mesos/blob/master/docs/committers.md) 的文件找到
+* Shepherd 可以在 [committer](https://github.com/apache/mesos/blob/master/docs/committers.md) 的文件找到, 如下圖：![commiter](./images/commiter.png)
 
 
 ### 建立 Patch
