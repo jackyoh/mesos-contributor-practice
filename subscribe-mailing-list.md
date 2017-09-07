@@ -1,4 +1,4 @@
-## 如何註冊 Mesos mailing list
+## 如何訂閱 Mesos mailing list
 
 ### Mesos mailing list 的 Web 網站如下：
 * [User](https://lists.apache.org/list.html?user@mesos.apache.org)
@@ -40,7 +40,3 @@
 
 ### Step 2: 點選 Start a new thread 進行發問, 如下圖
 ![./images/mailinglist8.png](./images/mailinglist8.png)
-
-
-
-
