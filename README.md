@@ -5,3 +5,4 @@
     * [Runing Mesos Unit Test](running-mesos-test.md)
     * [Submitting a Patch](submitting-a-patch.md)
     * [Mesos code style](mesos-code-style.md)
+    * [Subscribe mailing list](subscribe-mailing-list.md)
